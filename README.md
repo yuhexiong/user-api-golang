@@ -1,11 +1,11 @@
 # User API
 
-### Overview
+## Overview
 - Lanuage: Golang
 - Web Framework: Fiber
 - DataBase: MongoDB
 
-### ENV
+## ENV
 copy .env.default and rename as .env
 ```
 MONGO_URL=
@@ -13,25 +13,23 @@ DB_NAME=
 API_PORT=
 ```
 
-### 更新 Modules
+## Install Modules
 ```
 go get -u && go mod tidy -v
 ```
 
 
-### 執行程式
+## Run
 ```
 go run main.go
 ```
 
-### 執行測試
+## Test
 ```
 go test -v ./test/.
 ```
 
 ## API
-
-### Request
 
 * `POST /user`
 * `GET /user/:userId`
