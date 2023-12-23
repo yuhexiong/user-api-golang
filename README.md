@@ -1,9 +1,9 @@
 # User API
 
 ## Overview
-- Lanuage: Golang
+- Lanuage: Golang v1.20.1
 - Web Framework: Fiber
-- DataBase: MongoDB
+- DataBase: MongoDB v4.0
 
 ## ENV
 copy .env.default and rename as .env
