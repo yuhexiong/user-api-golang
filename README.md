@@ -1,7 +1,7 @@
 # User API
 
 ## Overview
-- Lanuage: Golang v1.20.1
+- Language: Golang v1.20.1
 - Web Framework: Fiber
 - DataBase: MongoDB v4.0
 
