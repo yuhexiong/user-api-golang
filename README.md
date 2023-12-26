@@ -3,7 +3,7 @@
 ## Overview
 - Language: Golang v1.20.1
 - Web Framework: Fiber
-- DataBase: MongoDB v4.0
+- DataBase: MongoDB v7.0
 
 ## ENV
 copy .env.default and rename as .env
