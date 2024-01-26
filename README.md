@@ -3,7 +3,7 @@
 ## Overview
 - Language: Golang v1.20.1
 - Web Framework: Fiber
-- DataBase: MongoDB v7.0
+- DataBase: MongoDB v7.0.2
 
 ## ENV
 copy .env.default and rename as .env
@@ -32,7 +32,7 @@ go test -v ./test/.
 ## API
 
 * `POST /user`
-* `GET /user/:userId`
-* `PUT /user/:userId`
-* `PATCH /user/:userId/:status`
-* `DELETE /user/:userId`
+* `GET /user/{userId}`
+* `PUT /user/{userId}`
+* `PATCH /user/{userId}/{status}`
+* `DELETE /user/{userId}`
